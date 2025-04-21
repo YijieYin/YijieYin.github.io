@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinions - Yijie Yin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+        }
+        nav li {
+            padding: 14px 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://scholar.google.com/citations?user=okx53MwAAAAJ&hl=en">Publications</a></li>
+            <li><a href="opinions.html">Opinions</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>My definition of understanding</h1>
+        <p></p>
+    </header>
+
+    <section>
+        <h2>What is (not) understanding</h2>
+        <p>I sometimes wonder why some research is done where after learning it, I feel I learnt a new fact, but not a useful one or one that I care about. Upon talking to people, I realise that it's not necessarily because some people are doing some research just to keep doing research, but perhaps we have different definitions of understanding, and it was my definition that meant that I didn't find the result satisfying. </p>
+
+        <p>So <b>here's my definition of 'understanding'</b>: I feel I can claim I have understood something when: </p>
+        <u1>
+            <li> I can tell you the function of every component in the system and how they work together to achieve the computation;</li>
+            <li> I can predict the input-output mapping correctly;</li>
+            <li> and based on my understanding of the functions, predict correctly what happens after each component is removed; 
+            <li>Based on my understanding, I can make another (sub-)system from scratch that achieves the function I predict it has;</li> 
+            <li>and I have the same amount of explainatory/predictive power in the new system as I had in the original system. </li>
+        </u1>
+
+        <p>It is this complicated because <b>I don't think e.g. the following cases count as 'understanding'</b>: </p>
+        <ul>
+            <li>Using a black-box model to reproduce the responses of the brain. In this case I can correctly predict the input-output mapping, but I don't understand either the model or the brain.</li>
+            <li>Using a white-box model to reproduce the responses of the brain. Because what the model is doing to reproduce the response is not necessarily what the brain is doing. The causal role of the components must also match up.</li>
+            <li>Descriptive statistics of measurements.</li>
+
+        </ul>
+        <p><b>Caveat:</b>I feel much of neuroscience in bigger brains satisfy the first three components, and it may not be hard for them to build a system based on their understanding. But in many cases I still don't feel that "understanding" is achieved. Perhaps the criteria can become easier the bigger and more capable each componenet gets. For example, it's harder to design a system by hand that detects faces from pixels on an image, than putting a by-definition "face-detecting component" in a bigger system. 
+        </p>
+        <p>Drosophilists are subject to the same criticism: we explain things on the level of neurons, synapses, or molecules at best, but we don't go to the finer level of interactions between atoms. So either I baked some personal preference into the objective-soundign definition, or my definition still needs refining. </p>
+    </section>
+
+    <section>
+        <h2>Implications</h2>
+        <p>This definition almost forces a bottom-up approach of examining the brain, because what's top-down is likely not function-specific, and you likely cannot understand the function of every component. Moreover, it seems that broad measurements result in broad statements which are too broad to design any specific system with. Unless, of course, you wanted to design a general system. But it's still not clear that replicating broad statements would necessarily give you a system of the same ability.</p>
+        <p>So perhaps we have to take the inefficient way, accumulate our understanding circuit by circuit, and finally look back, to understand how to design a system of choice.</p>
+
+
+    <footer>
+        <p>© Yijie Yin 2025</p>
+    </footer>
+</body>
+</html>
